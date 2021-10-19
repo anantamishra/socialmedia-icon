@@ -7,31 +7,16 @@ body {
 h1 {
   text-align: center;
 }
-.social-media ul {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 0;
-  margin: 0;
-  display: flex;
+.social-media{
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;  
+  gap: 15px;
+  grid-auto-flow: column;
+
 }
-.social-media ul li {
-  list-style: none;
-  margin: 0 12px;
-}
-.social-media ul li .fa {
-  color: #000;
-  font-size: 30px;
-  line-height: 50px;
-  transition: 0.5s;
-}
-.social-media ul li .fa:hover {
-  color: #fff;
-}
-.social-media ul li a {
-  position: relative;
-  display: block;
+.social-media .handle {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -41,24 +26,33 @@ h1 {
   transform: translate(0, 0px);
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
 }
-.social-media ul li a:hover {
-  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+.social-media div .fa {
+  color: #000;
+  font-size: 30px;
+  line-height: 50px;
+  transition: 0.5s;
 }
-.social-media ul li:nth-child(1) a:hover {
-  background: #3b5998;
+
+.social-media div .fa-facebook:hover {
+  color: #3b5998;
+
 }
-.social-media ul li:nth-child(2) a:hover {
-  background: #55acee;
+.social-media div .fa-twitter:hover {
+  color: #55acee;
+
 }
-.social-media ul li:nth-child(3) a:hover {
-  background: #e4405f;
+.social-media div .fa-instagram:hover {
+  color: #e4405f;
+
 }
-.social-media ul li:nth-child(4) a:hover {
-  background: #cd201f;
+.social-media div .fa-youtube-play:hover {
+  color: #cd201f;
 }
-.social-media ul li:nth-child(5) a:hover {
-  background: #0077b5;
+.social-media div .fa-linkedin:hover {
+  color: #0077b5;
+
 }
-.social-media ul li:nth-child(6) a:hover {
-  background:  #cd201f;
+.social-media div .fa-meetup:hover {
+  color: #e51937;
+
 }
