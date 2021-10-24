@@ -56,9 +56,3 @@ h1 {
   color: #e51937;
 
 }
-.handle{
-  margin: 5px;
-}
-.handle:hover{
-  box-shadow:10px 5px 5px hsl(0, 0%, 0%);
-}
