@@ -7,14 +7,13 @@ body {
 h1 {
   text-align: center;
 }
-.social-media{
+.social-media {
   height: 100vh;
   display: grid;
   align-content: center;
-  justify-content: center;  
+  justify-content: center;
   gap: 15px;
   grid-auto-flow: column;
-
 }
 .social-media .handle {
   width: 60px;
@@ -34,25 +33,35 @@ h1 {
 }
 
 .social-media div .fa-facebook:hover {
-  color: #3b5998;
-
+  color: #1878f1;
 }
 .social-media div .fa-twitter:hover {
-  color: #55acee;
-
+  color: #1da1f3;
 }
 .social-media div .fa-instagram:hover {
-  color: #e4405f;
-
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 .social-media div .fa-youtube-play:hover {
   color: #cd201f;
 }
 .social-media div .fa-linkedin:hover {
   color: #0077b5;
-
 }
 .social-media div .fa-meetup:hover {
   color: #e51937;
-
+}
+.social-media div .fa-snapchat:hover {
+  color: #f6f400;
 }
