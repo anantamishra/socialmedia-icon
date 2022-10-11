@@ -1,14 +1,32 @@
-html,
-body {
+*{
   margin: 0px;
   padding: 0px;
   background: #fff;
 }
+
 h1 {
+  margin-top: 50px;
   text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
 }
+.profile-image img{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+  width: 20%;
+  box-shadow: 3px 3px 15px 0px #00000036;
+}
+
+@media screen and (max-width: 390px) {
+  .profile-image img{
+    width: 50%
+ }
+} 
 .social-media {
-  height: 100vh;
+  margin-top: 50px;
   display: grid;
   align-content: center;
   justify-content: center;
@@ -30,6 +48,7 @@ h1 {
   font-size: 30px;
   line-height: 60px;
   transition: 0.5s;
+  background: transparent;
 }
 
 .social-media div .fa-facebook:hover {
